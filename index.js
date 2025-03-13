@@ -1,65 +1,23 @@
 const express = require("express");
+const cors = require("cors");
+const dotenv = require("dotenv");
+
+// Load environment variables
+dotenv.config();
+
 const app = express();
-const port = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5000;
 
-// Dummy data for adventures and handicrafts
-const adventures = [
-  {
-    id: 1,
-    name: "Skiing in the Alps",
-    description: "Enjoy the best slopes in the Alps.",
-    image: "https://example.com/skiing.jpg",
-    price: "$200",
-  },
-  {
-    id: 2,
-    name: "White Water Rafting",
-    description: "Experience the thrill of white water rafting.",
-    image: "https://example.com/rafting.jpg",
-    price: "$150",
-  },
-  {
-    id: 3,
-    name: "Mountain Trekking",
-    description: "Explore breathtaking mountain trails.",
-    image: "https://example.com/trekking.jpg",
-    price: "$100",
-  },
-];
+app.use(cors());
+app.use(express.json());
 
-const handicrafts = [
-  {
-    id: 1,
-    name: "Handwoven Scarf",
-    description: "Authentic handwoven scarf from local artisans.",
-    image: "https://example.com/scarf.jpg",
-    price: "$25",
-  },
-  {
-    id: 2,
-    name: "Wood Carved Artifact",
-    description: "Unique wood carved artifact, perfect for home decor.",
-    image: "https://example.com/artifact.jpg",
-    price: "$40",
-  },
-  {
-    id: 3,
-    name: "Traditional Jewelry",
-    description: "Exquisite traditional jewelry with intricate designs.",
-    image: "https://example.com/jewelry.jpg",
-    price: "$60",
-  },
-];
+// Import and use different route files
+app.use("/dummy/transport", require("./routes/transportRoutes"));
+app.use("/dummy/stay", require("./routes/stayRoutes"));
+app.use("/dummy/adventure", require("./routes/adventureRoutes"));
+app.use("/dummy/localmarket", require("./routes/localMarketRoutes"));
+app.use("/dummy/profile", require("./routes/profileRoutes"));
 
-// API endpoints
-app.get("/api/adventures", (req, res) => {
-  res.json(adventures);
-});
-
-app.get("/api/handicrafts", (req, res) => {
-  res.json(handicrafts);
-});
-
-app.listen(port, () => {
-  console.log(`Server is running on port ${port}`);
+app.listen(PORT, () => {
+  console.log(`Server running on http://localhost:${PORT}`);
 });
