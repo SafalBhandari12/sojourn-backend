@@ -16,7 +16,8 @@ const adventureData = [
       { user: "Alice", comment: "Loved the view!", rating: 5 },
       { user: "Bob", comment: "Smooth and enjoyable.", rating: 4 },
     ],
-    imageUrl: "https://example.com/images/gonddaa.jpg",
+    imageUrl:
+      "https://kashmirtourtravel.com/blog/wp-content/uploads/2023/07/gondola-cable-car-ride-in-gulmarg.jpg",
     bookingDetails: {
       ageRequirement: "All ages",
       difficulty: "Easy",
@@ -38,7 +39,8 @@ const adventureData = [
       { user: "Charlie", comment: "Incredible adventure!", rating: 5 },
       { user: "Dana", comment: "Challenging but rewarding.", rating: 4.5 },
     ],
-    imageUrl: "https://example.com/images/trekking.jpg",
+    imageUrl:
+      "https://static.toiimg.com/thumb/110879936/Trekking-tips.jpg?width=1200&height=900",
     bookingDetails: {
       ageRequirement: "10+ years",
       difficulty: "Medium",
@@ -60,7 +62,8 @@ const adventureData = [
       { user: "Eve", comment: "Exciting and fun!", rating: 5 },
       { user: "Frank", comment: "Very well organized.", rating: 4 },
     ],
-    imageUrl: "https://example.com/images/rafting.jpg",
+    imageUrl:
+      "https://cdn-bbgio.nitrocdn.com/gczrOkaimEMxJOFiDrkhHCxqRwOBQveV/assets/images/optimized/rev-feeb3f7/wp-content/uploads/2024/09/White-Water-Rafting-Karnataka-1080x675.jpg",
     bookingDetails: {
       ageRequirement: "14+ years",
       difficulty: "High",
@@ -83,7 +86,8 @@ const adventureData = [
       { user: "George", comment: "Peaceful and relaxing!", rating: 5 },
       { user: "Hannah", comment: "A must-try experience.", rating: 4.5 },
     ],
-    imageUrl: "https://example.com/images/camping.jpg",
+    imageUrl:
+      "https://media.cntraveler.com/photos/607313c3d1058698d13c31b5/16:9/w_2560%2Cc_limit/FamilyCamping-2021-GettyImages-948512452-2.jpg",
     bookingDetails: {
       ageRequirement: "12+ years",
       difficulty: "Medium",
