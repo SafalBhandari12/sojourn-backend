@@ -11,6 +11,7 @@ const adventureData = [
     duration: "1 hour",
     availableSlots: 20,
     rating: 4.7,
+    inclusions: ["Guide", "Safety Gear"], // new field for inclusions
     reviews: [
       { user: "Alice", comment: "Loved the view!", rating: 5 },
       { user: "Bob", comment: "Smooth and enjoyable.", rating: 4 },
@@ -32,6 +33,7 @@ const adventureData = [
     duration: "5 hours",
     availableSlots: 15,
     rating: 4.8,
+    inclusions: ["Guide", "Meal", "Safety Gear"],
     reviews: [
       { user: "Charlie", comment: "Incredible adventure!", rating: 5 },
       { user: "Dana", comment: "Challenging but rewarding.", rating: 4.5 },
@@ -53,6 +55,7 @@ const adventureData = [
     duration: "3 hours",
     availableSlots: 15,
     rating: 4.5,
+    inclusions: ["Guide", "Safety Gear", "Equipment"],
     reviews: [
       { user: "Eve", comment: "Exciting and fun!", rating: 5 },
       { user: "Frank", comment: "Very well organized.", rating: 4 },
@@ -75,6 +78,7 @@ const adventureData = [
     duration: "Overnight",
     availableSlots: 10,
     rating: 4.6,
+    inclusions: ["Guide", "Meal", "Campfire", "Safety Gear"],
     reviews: [
       { user: "George", comment: "Peaceful and relaxing!", rating: 5 },
       { user: "Hannah", comment: "A must-try experience.", rating: 4.5 },
@@ -89,8 +93,23 @@ const adventureData = [
   },
 ];
 
+// GET endpoint to list adventures
 router.get("/", (req, res) => {
   res.json(adventureData);
+});
+
+// POST endpoint to process a booking (dummy implementation)
+router.post("/book", (req, res) => {
+  const booking = req.body;
+  // In a real app, you would process the booking and payment here.
+  // For now, send back a dummy confirmation with a QR code image URL.
+  const confirmation = {
+    message: "Booking confirmed!",
+    bookingId: Math.floor(Math.random() * 1000000),
+    qrCode: "https://example.com/dummy-qrcode.png", // dummy QR code URL
+    bookingDetails: booking,
+  };
+  res.json(confirmation);
 });
 
 module.exports = router;
