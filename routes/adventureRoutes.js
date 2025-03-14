@@ -4,7 +4,7 @@ const router = express.Router();
 const adventureData = [
   {
     id: 1,
-    name: "Gonddaa Rides",
+    name: "Gondola Rides",
     price: "₹2000",
     description: "Enjoy a scenic gonddaa ride with breathtaking views.",
     location: "Various Locations",
