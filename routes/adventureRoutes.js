@@ -18,7 +18,8 @@ router.post("/book", (req, res) => {
   const confirmation = {
     message: "Booking confirmed!",
     bookingId: Math.floor(Math.random() * 1000000),
-    qrCode: "https://example.com/dummy-qrcode.png", // dummy QR code URL
+    qrCode:
+      "https://www.uniqode.com/blog/wp-content/themes/beaconstac/img/header/qr-template-4.webp", // dummy QR code URL
     bookingDetails: booking,
   };
   res.json(confirmation);
