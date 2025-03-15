@@ -17,7 +17,8 @@ const adventureData = [
           { user: "Alice", comment: "Loved the panoramic views!", rating: 5 },
           { user: "Bob", comment: "Smooth and very scenic.", rating: 4 },
         ],
-        imageUrl: "https://source.unsplash.com/featured/?gondola",
+        imageUrl:
+          "https://media1.thrillophilia.com/filestore/7q8mr927utv7g80x8x9sazhyx5ns_y38mi28pvfavegf1982ntnpbvj9n_Gulmarg%20Gondola%20Ride.jpg?w=400&dpr=2",
         bookingDetails: {
           ageRequirement: "All ages",
           difficulty: "Easy",
@@ -46,7 +47,8 @@ const adventureData = [
           { user: "Carol", comment: "A premium experience!", rating: 5 },
           { user: "Dave", comment: "Worth every rupee.", rating: 4.5 },
         ],
-        imageUrl: "https://source.unsplash.com/featured/?cablecar",
+        imageUrl:
+          "https://media1.thrillophilia.com/filestore/7q8mr927utv7g80x8x9sazhyx5ns_y38mi28pvfavegf1982ntnpbvj9n_Gulmarg%20Gondola%20Ride.jpg?w=400&dpr=2",
         bookingDetails: {
           ageRequirement: "All ages",
           difficulty: "Easy",
@@ -84,7 +86,8 @@ const adventureData = [
             rating: 4.5,
           },
         ],
-        imageUrl: "https://source.unsplash.com/featured/?trekking",
+        imageUrl:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf3ooB_-lZkdvOfgWrSXg5Sp3UjJ-okHBkcw&s",
         bookingDetails: {
           ageRequirement: "10+ years",
           difficulty: "Medium",
@@ -117,7 +120,8 @@ const adventureData = [
             rating: 4,
           },
         ],
-        imageUrl: "https://source.unsplash.com/featured/?forest,trekking",
+        imageUrl:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf3ooB_-lZkdvOfgWrSXg5Sp3UjJ-okHBkcw&s",
         bookingDetails: {
           ageRequirement: "12+ years",
           difficulty: "Medium",
@@ -151,7 +155,8 @@ const adventureData = [
           { user: "Eve", comment: "Exciting and fun!", rating: 5 },
           { user: "Frank", comment: "Very well organized.", rating: 4 },
         ],
-        imageUrl: "https://source.unsplash.com/featured/?rafting",
+        imageUrl:
+          "https://elginhall.com/blog/wp-content/uploads/2023/02/image-17.jpeg",
         bookingDetails: {
           ageRequirement: "14+ years",
           difficulty: "High",
@@ -184,7 +189,8 @@ const adventureData = [
             rating: 4.5,
           },
         ],
-        imageUrl: "https://source.unsplash.com/featured/?whitewater",
+        imageUrl:
+          "https://elginhall.com/blog/wp-content/uploads/2023/02/image-17.jpeg",
         bookingDetails: {
           ageRequirement: "16+ years",
           difficulty: "High",
@@ -218,7 +224,8 @@ const adventureData = [
           { user: "George", comment: "Peaceful and relaxing!", rating: 5 },
           { user: "Hannah", comment: "A must-try experience.", rating: 4.5 },
         ],
-        imageUrl: "https://source.unsplash.com/featured/?camping",
+        imageUrl:
+          "https://media.cntraveler.com/photos/607313c3d1058698d13c31b5/16:9/w_2560%2Cc_limit/FamilyCamping-2021-GettyImages-948512452-2.jpg",
         bookingDetails: {
           ageRequirement: "12+ years",
           difficulty: "Medium",
@@ -251,7 +258,8 @@ const adventureData = [
             rating: 4.5,
           },
         ],
-        imageUrl: "https://source.unsplash.com/featured/?family,camping",
+        imageUrl:
+          "https://media.cntraveler.com/photos/607313c3d1058698d13c31b5/16:9/w_2560%2Cc_limit/FamilyCamping-2021-GettyImages-948512452-2.jpg",
         bookingDetails: {
           ageRequirement: "All ages",
           difficulty: "Easy",
@@ -285,7 +293,8 @@ const adventureData = [
           { user: "Lara", comment: "An unforgettable experience!", rating: 5 },
           { user: "Mike", comment: "The views were spectacular.", rating: 4.5 },
         ],
-        imageUrl: "https://source.unsplash.com/featured/?paragliding",
+        imageUrl:
+          "https://induspg.b-cdn.net/wp-content/uploads/elementor/thumbs/DSC_0857-oibadgwuegsaxscstlibgjspi3wv9j6lfyqqd46bns.jpg",
         bookingDetails: {
           ageRequirement: "16+ years",
           difficulty: "Medium",
@@ -314,7 +323,8 @@ const adventureData = [
           { user: "Nina", comment: "Breathtaking sunset views!", rating: 5 },
           { user: "Oscar", comment: "Thrilling and safe.", rating: 4.5 },
         ],
-        imageUrl: "https://source.unsplash.com/featured/?paragliding,sunset",
+        imageUrl:
+          "https://induspg.b-cdn.net/wp-content/uploads/elementor/thumbs/DSC_0857-oibadgwuegsaxscstlibgjspi3wv9j6lfyqqd46bns.jpg",
         bookingDetails: {
           ageRequirement: "16+ years",
           difficulty: "Medium",
@@ -352,7 +362,8 @@ const adventureData = [
           },
           { user: "Quincy", comment: "Well-organized and safe.", rating: 4.5 },
         ],
-        imageUrl: "https://source.unsplash.com/featured/?wildlife,safari",
+        imageUrl:
+          "https://induspg.b-cdn.net/wp-content/uploads/elementor/thumbs/DSC_0857-oibadgwuegsaxscstlibgjspi3wv9j6lfyqqd46bns.jpg",
         bookingDetails: {
           ageRequirement: "All ages",
           difficulty: "Easy",
@@ -385,7 +396,8 @@ const adventureData = [
           },
           { user: "Sam", comment: "Loved the desert vibe!", rating: 4.5 },
         ],
-        imageUrl: "https://source.unsplash.com/featured/?desert,safari",
+        imageUrl:
+          "https://induspg.b-cdn.net/wp-content/uploads/elementor/thumbs/DSC_0857-oibadgwuegsaxscstlibgjspi3wv9j6lfyqqd46bns.jpg",
         bookingDetails: {
           ageRequirement: "All ages",
           difficulty: "Easy",
