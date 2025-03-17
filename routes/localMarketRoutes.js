@@ -9,8 +9,7 @@ const localMarketData = [
     price: "₹1,500",
     description:
       "Premium grade saffron directly from the farms of Pampore. Known for its unique aroma and color.",
-    image:
-      "https://images.unsplash.com/photo-1631118052174-8a16c5674996?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    image: "https://satvyk.com/wp-content/uploads/2019/02/Kesar-1.jpg",
     category: "Spices",
     rating: 4.9,
     featured: true,
@@ -22,7 +21,7 @@ const localMarketData = [
     description:
       "Handwoven luxury shawls made from authentic Pashmina wool. Warm, soft, and incredibly light.",
     image:
-      "https://images.unsplash.com/photo-1606913739895-becd574c3d98?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "https://pashtush.in/cdn/shop/products/pashtush-pashmina-pashtush-mens-kashmiri-tilla-hand-embroidered-shawl-full-size-extra-fine-wool-kalamkari-31340106154038.png?v=1663141744&width=1080",
     category: "Textiles",
     rating: 4.8,
     featured: true,
@@ -34,7 +33,7 @@ const localMarketData = [
     description:
       "Organic walnuts from the valley, rich in nutrients and flavor. Perfect for snacking and cooking.",
     image:
-      "https://images.unsplash.com/photo-1600189020840-e9a582c5419b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "https://www.kashmirorigin.com/cdn/shop/files/Kashmiri-Walnuts-3-jpg_7f9ce05d-1d9f-4f06-a5ac-bc5ce9fab3dd.webp?v=1726485251",
     category: "Food",
     rating: 4.7,
   },
@@ -45,7 +44,7 @@ const localMarketData = [
     description:
       "Handcrafted decorative boxes with intricate traditional designs. Perfect for home decor or gifts.",
     image:
-      "https://images.unsplash.com/photo-1620783770927-79bed29fc308?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "https://www.tregeaglefineart.com/upload/images/shopprod/10747/a-good-collection-of-twenty-two-22-kashmiri-papier-m-ch-boxes-etc_10747_main_size3.jpg",
     category: "Handicrafts",
     rating: 4.6,
   },
@@ -56,7 +55,7 @@ const localMarketData = [
     description:
       "Traditional Kashmiri green tea blend with saffron, cardamom, cinnamon and almonds.",
     image:
-      "https://images.unsplash.com/photo-1578874854637-9f246f48f6f2?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "https://www.dawnlee.in/wp-content/uploads/2024/03/indias-best-premium-quality-kashmiri-kahwa-product.webp",
     category: "Food",
     rating: 4.9,
     featured: true,
@@ -68,7 +67,7 @@ const localMarketData = [
     description:
       "Traditional copper kettle used for brewing and serving Kahwa tea. Ornate and functional.",
     image:
-      "https://images.unsplash.com/photo-1626080308832-37f55b4h4f8?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "https://cdn.shopify.com/s/files/1/0259/9737/7594/products/66866d1b-3f4d-4ba6-b01b-4294cf64f037_300x@2x.jpg?v=1622614843",
     category: "Handicrafts",
     rating: 4.7,
   },
@@ -79,7 +78,7 @@ const localMarketData = [
     description:
       "Hand-knotted silk carpet with intricate traditional patterns. A masterpiece of craftsmanship.",
     image:
-      "https://images.unsplash.com/photo-1600244900033-3b84b1599635?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "https://www.kashmirbox.com/cdn/shop/files/DSC01170-Edit.jpg?v=1739683572&width=1500",
     category: "Textiles",
     rating: 4.9,
     featured: true,
@@ -91,7 +90,7 @@ const localMarketData = [
     description:
       "Assorted premium dry fruits including almonds, walnuts, dried apricots, and figs from Kashmir.",
     image:
-      "https://images.unsplash.com/photo-1606914501295-40h4e6k5f5t?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "https://www.indicinspirations.com/cdn/shop/products/kashmiri-dry-fruit-pack-boxes-439122.jpg?v=1632129006&width=899",
     category: "Food",
     rating: 4.8,
   },
@@ -101,8 +100,7 @@ const localMarketData = [
     price: "₹600",
     description:
       "Dried chinar leaves with intricate paintings depicting Kashmiri landscapes and culture.",
-    image:
-      "https://images.unsplash.com/photo-1614884836087-567lq4l0h4y?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    image: "https://i.ytimg.com/vi/x4BZOacH8dY/sddefault.jpg",
     category: "Handicrafts",
     rating: 4.5,
   },
@@ -113,7 +111,7 @@ const localMarketData = [
     description:
       "Traditional Kashmiri woolen garment with beautiful embroidery. Warm and stylish.",
     image:
-      "https://images.unsplash.com/photo-1621845378233-75d18f8de3c6?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "https://www.kashmirbox.com/cdn/shop/products/DSC00794.jpg?v=1740736060&width=1500",
     category: "Textiles",
     rating: 4.7,
   },
