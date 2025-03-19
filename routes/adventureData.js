@@ -87,7 +87,7 @@ const adventureData = [
           },
         ],
         imageUrl:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf3ooB_-lZkdvOfgWrSXg5Sp3UjJ-okHBkcw&s",
+          "https://www.alltrails.com/_next/image?url=https%3A%2F%2Fimages.alltrails.com%2FeyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNjE2NTkxMjMvMDUyN2VlM2RjN2I4ZGMwNjUyNWIwZTZkZGU1MjlmOWEuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJqcGVnIiwicmVzaXplIjp7IndpZHRoIjoxMDgwLCJoZWlnaHQiOjcwMCwiZml0IjoiY292ZXIifSwicm90YXRlIjpudWxsLCJqcGVnIjp7InRyZWxsaXNRdWFudGlzYXRpb24iOnRydWUsIm92ZXJzaG9vdERlcmluZ2luZyI6dHJ1ZSwib3B0aW1pc2VTY2FucyI6dHJ1ZSwicXVhbnRpc2F0aW9uVGFibGUiOjN9fX0%3D&w=3840&q=75",
         bookingDetails: {
           ageRequirement: "10+ years",
           difficulty: "Medium",
