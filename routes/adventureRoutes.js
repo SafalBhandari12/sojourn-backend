@@ -1,74 +1,33 @@
 const express = require("express");
 const router = express.Router();
-const admin = require("firebase-admin");
+const adventureData = require("./adventureData"); // Import your static adventure data
 
-// Initialize Firebase Admin if it hasn't been initialized already.
-if (!admin.apps.length) {
-  const serviceAccount = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT_KEY);
-  admin.initializeApp({
-    credential: admin.credential.cert(serviceAccount),
-  });
-}
-
-const db = admin.firestore();
-
-// GET endpoint to fetch adventure data from Firestore
-router.get("/", async (req, res) => {
+// GET endpoint to fetch adventure data from the static file
+router.get("/", (req, res) => {
   try {
-    const categoriesSnapshot = await db.collection("category").get();
-    let categoriesData = [];
-    for (const categoryDoc of categoriesSnapshot.docs) {
-      const categoryData = categoryDoc.data();
-      const listingsSnapshot = await categoryDoc.ref
-        .collection("listings")
-        .get();
-      const listings = listingsSnapshot.docs.map((doc) => ({
-        id: doc.id,
-        ...doc.data(),
-      }));
-      categoriesData.push({
-        category: categoryData.categoryName,
-        listings,
-      });
-    }
-    res.json(categoriesData);
+    res.json(adventureData);
   } catch (error) {
-    console.error("Error retrieving data from Firestore:", error);
-    res.status(500).json({ error: "Error retrieving data" });
+    console.error("Error retrieving adventure data:", error);
+    res.status(500).json({ error: "Error retrieving adventure data" });
   }
 });
 
-// POST endpoint to process a booking (secure implementation)
-router.post("/book", async (req, res) => {
+// POST endpoint to process a booking using the static adventure data
+router.post("/book", (req, res) => {
   const { adventureId, date, slots, paymentMethod } = req.body;
   try {
-    // Securely retrieve the adventure details from Firestore.
-    // (Assuming adventures are stored within the category->listings structure)
-    const categoriesSnapshot = await db.collection("category").get();
-    let adventureData = null;
-    for (const categoryDoc of categoriesSnapshot.docs) {
-      const listingsSnapshot = await categoryDoc.ref
-        .collection("listings")
-        .get();
-      for (const listingDoc of listingsSnapshot.docs) {
-        if (listingDoc.id === adventureId.toString()) {
-          adventureData = listingDoc.data();
-          break;
-        }
-      }
-      if (adventureData) break;
-    }
-    if (!adventureData) {
+    // Find the adventure by its id in the static data
+    const adventure = adventureData.find(
+      (item) => item.id.toString() === adventureId.toString()
+    );
+    if (!adventure) {
       return res.status(404).json({ error: "Adventure not found" });
     }
 
-    // Securely calculate the total price from backend data.
-    // Remove any currency symbols and calculate total based on the number of slots.
-    const basePrice = parseInt(adventureData.price.replace(/[^\d]/g, ""));
-    const totalPrice = basePrice * parseInt(slots);
-
-    // If paymentMethod is online, you would typically create an order via Razorpay's backend API.
-    // For demonstration purposes, we assume the payment will be processed on the client side.
+    // Calculate the total price using the adventure's base price.
+    // Assumes the adventure.price is a string that might contain non-digit characters.
+    const basePrice = parseInt(adventure.price.replace(/[^\d]/g, ""), 10);
+    const totalPrice = basePrice * parseInt(slots, 10);
 
     const confirmation = {
       message: "Booking confirmed!",
@@ -78,6 +37,7 @@ router.post("/book", async (req, res) => {
         "https://www.uniqode.com/blog/wp-content/themes/beaconstac/img/header/qr-template-4.webp",
       bookingDetails: { adventureId, date, slots, paymentMethod },
     };
+
     res.json(confirmation);
   } catch (error) {
     console.error("Error processing booking: ", error);
