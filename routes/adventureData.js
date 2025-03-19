@@ -435,7 +435,8 @@ const adventureData = [
           },
           { user: "Uma", comment: "Calming and fun.", rating: 4.5 },
         ],
-        imageUrl: "https://source.unsplash.com/featured/?horseriding",
+        imageUrl:
+          "https://images.pexels.com/photos/1559388/pexels-photo-1559388.jpeg",
         bookingDetails: {
           ageRequirement: "All ages",
           difficulty: "Easy",
@@ -506,7 +507,8 @@ const adventureData = [
           },
           { user: "Yara", comment: "Exhilarating and safe.", rating: 4.5 },
         ],
-        imageUrl: "https://source.unsplash.com/featured/?snowboarding",
+        imageUrl:
+          "https://www.google.com/url?sa=i&url=https%3A%2F%2Fblog.nols.edu%2Fsnowboarding-for-beginners&psig=AOvVaw1shC8BsEeDbT0hfQ6-_yB7&ust=1742466735786000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCODFy8b4lYwDFQAAAAAdAAAAABAE",
         bookingDetails: {
           ageRequirement: "14+ years",
           difficulty: "Medium",
@@ -517,7 +519,8 @@ const adventureData = [
           name: "Snow Peak Adventures",
           address: "77 Alpine Road, Manali, India",
           contact: "+91 9123445566",
-          website: "https://snowpeak.example.com",
+          website:
+            "https://images.unsplash.com/photo-1549351245-ac6dda50eb92?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c25vd21vYmlsZXxlbnwwfHwwfHx8MA%3D%3D",
         },
       },
       {
@@ -539,7 +542,8 @@ const adventureData = [
             rating: 4.5,
           },
         ],
-        imageUrl: "https://source.unsplash.com/featured/?snowmobile",
+        imageUrl:
+          "https://upload.wikimedia.org/wikipedia/commons/e/ed/SnowmobilesYellowstone.jpg",
         bookingDetails: {
           ageRequirement: "16+ years",
           difficulty: "High",
@@ -581,7 +585,8 @@ const adventureData = [
             rating: 4.5,
           },
         ],
-        imageUrl: "https://source.unsplash.com/featured/?garden",
+        imageUrl:
+          "https://images.unsplash.com/photo-1660917434223-2bc517ea9b00?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Z2FyZGVuJTIwcGFya3xlbnwwfHwwfHx8MA%3D%3D",
         bookingDetails: {
           ageRequirement: "All ages",
           difficulty: "Easy",
@@ -614,7 +619,8 @@ const adventureData = [
             rating: 4.5,
           },
         ],
-        imageUrl: "https://source.unsplash.com/featured/?park",
+        imageUrl:
+          "https://thumbs.dreamstime.com/b/beautiful-alley-park-garden-landscaping-design-wooden-bench-flowers-summer-instant-toned-image-51449458.jpg",
         bookingDetails: {
           ageRequirement: "All ages",
           difficulty: "Easy",
