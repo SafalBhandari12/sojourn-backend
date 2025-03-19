@@ -48,7 +48,7 @@ const adventureData = [
           { user: "Dave", comment: "Worth every rupee.", rating: 4.5 },
         ],
         imageUrl:
-          "https://media1.thrillophilia.com/filestore/7q8mr927utv7g80x8x9sazhyx5ns_y38mi28pvfavegf1982ntnpbvj9n_Gulmarg%20Gondola%20Ride.jpg?w=400&dpr=2",
+          "https://www.jammukashmircablecar.com/pub/images/hero-banner-gulmarg-winter.webp",
         bookingDetails: {
           ageRequirement: "All ages",
           difficulty: "Easy",
@@ -363,7 +363,7 @@ const adventureData = [
           { user: "Quincy", comment: "Well-organized and safe.", rating: 4.5 },
         ],
         imageUrl:
-          "https://induspg.b-cdn.net/wp-content/uploads/elementor/thumbs/DSC_0857-oibadgwuegsaxscstlibgjspi3wv9j6lfyqqd46bns.jpg",
+          "https://www.seawatersports.com/images/activies/slide/wildlife-safaris-in-kashmir-package.jpg",
         bookingDetails: {
           ageRequirement: "All ages",
           difficulty: "Easy",
@@ -397,7 +397,7 @@ const adventureData = [
           { user: "Sam", comment: "Loved the desert vibe!", rating: 4.5 },
         ],
         imageUrl:
-          "https://induspg.b-cdn.net/wp-content/uploads/elementor/thumbs/DSC_0857-oibadgwuegsaxscstlibgjspi3wv9j6lfyqqd46bns.jpg",
+          "https://www.seawatersports.com/images/activies/slide/wildlife-safaris-in-kashmir-package.jpg",
         bookingDetails: {
           ageRequirement: "All ages",
           difficulty: "Easy",
@@ -435,7 +435,8 @@ const adventureData = [
           },
           { user: "Uma", comment: "Calming and fun.", rating: 4.5 },
         ],
-        imageUrl: "https://source.unsplash.com/featured/?horseriding",
+        imageUrl:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYHIE7ibC2Oomcg7hE4GEzEHEI6fqfoDl_zQ&s",
         bookingDetails: {
           ageRequirement: "All ages",
           difficulty: "Easy",
@@ -468,7 +469,8 @@ const adventureData = [
           },
           { user: "Wanda", comment: "Well-managed and safe.", rating: 4.5 },
         ],
-        imageUrl: "https://source.unsplash.com/featured/?beach,horseriding",
+        imageUrl:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYHIE7ibC2Oomcg7hE4GEzEHEI6fqfoDl_zQ&s",
         bookingDetails: {
           ageRequirement: "All ages",
           difficulty: "Easy",
@@ -506,7 +508,8 @@ const adventureData = [
           },
           { user: "Yara", comment: "Exhilarating and safe.", rating: 4.5 },
         ],
-        imageUrl: "https://source.unsplash.com/featured/?snowboarding",
+        imageUrl:
+          "https://www.tourmyindia.com/blog//wp-content/uploads/2021/09/Sleigh-Riding-in-Kashmir.jpg",
         bookingDetails: {
           ageRequirement: "14+ years",
           difficulty: "Medium",
@@ -539,7 +542,8 @@ const adventureData = [
             rating: 4.5,
           },
         ],
-        imageUrl: "https://source.unsplash.com/featured/?snowmobile",
+        imageUrl:
+          "https://www.tourmyindia.com/blog//wp-content/uploads/2021/09/Sleigh-Riding-in-Kashmir.jpg",
         bookingDetails: {
           ageRequirement: "16+ years",
           difficulty: "High",
@@ -581,7 +585,8 @@ const adventureData = [
             rating: 4.5,
           },
         ],
-        imageUrl: "https://source.unsplash.com/featured/?garden",
+        imageUrl:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSl8nB3F4lKfE8qaIcK_3TsLNMoudPwPMb8A&s",
         bookingDetails: {
           ageRequirement: "All ages",
           difficulty: "Easy",
@@ -614,7 +619,8 @@ const adventureData = [
             rating: 4.5,
           },
         ],
-        imageUrl: "https://source.unsplash.com/featured/?park",
+        imageUrl:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSl8nB3F4lKfE8qaIcK_3TsLNMoudPwPMb8A&s",
         bookingDetails: {
           ageRequirement: "All ages",
           difficulty: "Easy",
